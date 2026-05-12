@@ -17,10 +17,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include QMK_KEYBOARD_H
-#include "config.h"
 
 #include "quantum.h"
-#include "lib/keyball/keyball.h"
 
 #ifdef POINTING_DEVICE_AUTO_MOUSE_ENABLE
 void keyball_handle_auto_mouse_layer_change(layer_state_t state);
